@@ -50,8 +50,8 @@ class GameRound:
 class Game:
   def __init__(self):
     self.endGame = False
-    self.participant = Participant("Spock")
-    self.secondParticipant = Participant("Kirk")
+    self.participant = Participant("Медвежонок")
+    self.secondParticipant = Participant("Ёжик")
   def start(self):
     while not self.endGame:
       GameRound(self.participant, self.secondParticipant)
